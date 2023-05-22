@@ -20,9 +20,13 @@ print(f"I also said:'{y}'")
 hilarious = False
 high =True
 
+#{ } the calibraces act a the placeholder in tyhe string
 joke_evaluation ="Isn't that joke so funny?! {}"
 
+
+# .format() is used to format strings by inserting values into the placeholders within the string
 print(joke_evaluation.format(high))
+
 w = "This is the left sode of..."
 e = "a string with a right side."
 
